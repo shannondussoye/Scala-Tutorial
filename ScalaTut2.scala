@@ -1,4 +1,4 @@
-object ScalaTut1 {
+object ScalaTut2 {
 	def main(args: Array[String]) {
 	
     // For loop extended
