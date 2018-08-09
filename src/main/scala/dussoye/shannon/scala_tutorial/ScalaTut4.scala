@@ -1,5 +1,4 @@
-//Handling I/O
-import scala.io.StdIn.{readLine, readInt}
+package dussoye.shannon.scala_tutorial
 
 object ScalaTut4 {
 	def main(args: Array[String]) {

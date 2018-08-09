@@ -1,5 +1,7 @@
-// Arrays
+package dussoye.shannon.scala_tutorial
+
 import scala.collection.mutable.ArrayBuffer
+
 object ScalaTut8 {
 	def main(args: Array[String]) {
 
@@ -49,14 +51,14 @@ object ScalaTut8 {
 		// Create a milti dimensional array
 		var multTable = Array.ofDim[Int](10,10)
 
-		// Loop through to add values 
+		// Loop through to add values
 		// create I*j
 		for(i <- 0 to 9){
 			for(j <- 0 to 9){
 				multTable(i)(j)=i*j
 			}
 		}
-		// Loop to print "tables" 
+		// Loop to print "tables"
 		for(i <- 0 to 9){
 			for(j <- 0 to 9){
 				printf("%d : %d = %d\n", i , j , multTable(i)(j))

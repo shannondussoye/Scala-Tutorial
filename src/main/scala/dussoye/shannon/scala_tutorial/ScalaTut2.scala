@@ -1,6 +1,8 @@
+package dussoye.shannon.scala_tutorial
+
 object ScalaTut2 {
 	def main(args: Array[String]) {
-	
+
     // For loop extended
 	var i = 0
 	var randLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"

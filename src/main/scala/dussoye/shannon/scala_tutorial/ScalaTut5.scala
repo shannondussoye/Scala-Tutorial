@@ -1,3 +1,5 @@
+package dussoye.shannon.scala_tutorial
+
 object ScalaTut5 {
 	def main(args: Array[String]) {
 		val name = "Shannon"
@@ -16,5 +18,3 @@ object ScalaTut5 {
 		printf("'%-5s'\n","hi")
 	}
 }
-
-// %c = characters, %d = decimal, %s = string

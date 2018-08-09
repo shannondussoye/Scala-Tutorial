@@ -1,3 +1,5 @@
+package dussoye.shannon.scala_tutorial
+
 object ScalaTut6 {
 	def main(args: Array[String]) {
 		var randSent = "I saw a dragon fly by"
@@ -18,4 +20,4 @@ object ScalaTut6 {
 		}
 
 	}
-} 
+}

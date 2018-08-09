@@ -1,7 +1,9 @@
+package dussoye.shannon.scala_tutorial
+
 // Functions
 object ScalaTut7 {
 	def main(args: Array[String]) {
-		
+
 		// with default value
 		def getSum(num1: Int=1, num2: Int=1): Int = {
 			num1+num2
@@ -20,7 +22,7 @@ object ScalaTut7 {
 
 		// Function with unlimited args
 		def getSumExt(args: Int*): Int = {
-			 var sum : Int = 0 
+			 var sum : Int = 0
 			 for (num <- args){
 			 	sum += num
 			 }
@@ -32,7 +34,7 @@ object ScalaTut7 {
 		def factorial(num: BigInt): BigInt = {
 			if (num <=1)
 				1
-			else 
+			else
 				num * factorial(num -1)
 		}
 		println("Factorial of 4: "+factorial(4))

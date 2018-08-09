@@ -1,6 +1,8 @@
+package dussoye.shannon.scala_tutorial
+
 object ScalaTut3 {
 	def main(args: Array[String]) {
-		
+
 		var i = 0
 
 		//defining function
