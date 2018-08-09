@@ -1,6 +1,6 @@
 package dussoye.shannon.scala_tutorial
 
-object ScalaTut2 {
+object ScalaTut2_List {
 	def main(args: Array[String]) {
 
     // For loop extended

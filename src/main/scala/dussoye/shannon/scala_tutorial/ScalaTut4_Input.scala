@@ -1,12 +1,14 @@
 package dussoye.shannon.scala_tutorial
 
-object ScalaTut4 {
+import scala.io.StdIn
+
+object ScalaTut4_Input {
 	def main(args: Array[String]) {
 		var numberGuess = 0
 		do{
 			print("Guess a number: ")
 			// readLine to string then convert to Int
-			numberGuess = readLine.toInt
+			numberGuess = StdIn.readInt()
 		} while(numberGuess!=15)
 
 		// using printf

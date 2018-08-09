@@ -1,7 +1,7 @@
 package dussoye.shannon.scala_tutorial
 
 // Functions
-object ScalaTut7 {
+object ScalaTut6_Functions {
 	def main(args: Array[String]) {
 
 		// with default value

@@ -1,6 +1,6 @@
 package dussoye.shannon.scala_tutorial
 
-object ScalaTut1 {
+object ScalaTut1_Loops {
   def main(args: Array[String]) {
 
     // While Loop

@@ -1,6 +1,6 @@
 package dussoye.shannon.scala_tutorial
 
-object ScalaTut3 {
+object ScalaTut3_ForLoop {
 	def main(args: Array[String]) {
 
 		var i = 0

@@ -2,7 +2,7 @@ package dussoye.shannon.scala_tutorial
 
 import scala.collection.mutable.ArrayBuffer
 
-object ScalaTut8 {
+object ScalaTut7_Arrays {
 	def main(args: Array[String]) {
 
 		// Create an array of Int of size 20
