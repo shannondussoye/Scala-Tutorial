@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b13e44-132a-4f85-8420-e587bcf19095" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut10_ClassesAndInheritance.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut11_AbstractClasses.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut12_Traits.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut14_Functions2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut15_Closures.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut16_FilesIO.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut17_Exceptions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +29,7 @@
     <session id="1665585006">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -33,23 +37,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="sc" value="1" />
-          <entry key="scala" value="30" />
+          <entry key="scala" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Markdown" value="1" />
-          <entry key="Scala" value="31" />
+          <entry key="Markdown" value="2" />
+          <entry key="Scala" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="210" />
           <entry key="sc" value="31" />
-          <entry key="scala" value="3589" />
+          <entry key="scala" value="4623" />
           <entry key="txt" value="136" />
         </counts>
       </usages-collector>
@@ -57,23 +61,13 @@
         <counts>
           <entry key="Markdown" value="210" />
           <entry key="PLAIN_TEXT" value="136" />
-          <entry key="Scala" value="3620" />
+          <entry key="Scala" value="4654" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut8.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/SalaTut9.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut9.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut10_Tuples.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut8_Arrays.scala" />
@@ -115,6 +108,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut11_AbstractClasses.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut12_Traits.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut14_Functions2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut15_Closures.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut16_FilesIO.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut17_Exceptions.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -164,14 +162,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Scala-Tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scala-Tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala_tutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -182,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533797526241" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533984110083" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -199,46 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScalaTut13_HighOrderFunction">
-    <configuration name="ScalaTut10_Class" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut10_ClassesAndInheritance" />
-      <module name="Scala-Tutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScalaTut11_AbstractClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut11_AbstractClasses" />
-      <module name="Scala-Tutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScalaTut12_Traits" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut12_Traits" />
-      <module name="Scala-Tutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ScalaTut17_Exceptions">
     <configuration name="ScalaTut13_HighOrderFunction" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut13_HighOrderFunction" />
       <module name="Scala-Tutorial" />
@@ -252,8 +203,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaTut4" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut4_Input" />
+    <configuration name="ScalaTut14_Functions2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut14_Functions2" />
+      <module name="Scala-Tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTut15_Closures" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut15_Closures" />
+      <module name="Scala-Tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTut16_FilesIO" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut16_FilesIO" />
+      <module name="Scala-Tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTut17_Exceptions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut17_Exceptions" />
       <module name="Scala-Tutorial" />
       <extension name="coverage">
         <pattern>
@@ -313,19 +303,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ScalaTut4" />
-      <item itemvalue="Application.ScalaTut10_Class" />
-      <item itemvalue="Application.ScalaTut11_AbstractClasses" />
-      <item itemvalue="Application.ScalaTut12_Traits" />
       <item itemvalue="Application.ScalaTut13_HighOrderFunction" />
+      <item itemvalue="Application.ScalaTut14_Functions2" />
+      <item itemvalue="Application.ScalaTut15_Closures" />
+      <item itemvalue="Application.ScalaTut16_FilesIO" />
+      <item itemvalue="Application.ScalaTut17_Exceptions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScalaTut17_Exceptions" />
+        <item itemvalue="Application.ScalaTut16_FilesIO" />
+        <item itemvalue="Application.ScalaTut15_Closures" />
+        <item itemvalue="Application.ScalaTut14_Functions2" />
         <item itemvalue="Application.ScalaTut13_HighOrderFunction" />
-        <item itemvalue="Application.ScalaTut12_Traits" />
-        <item itemvalue="Application.ScalaTut11_AbstractClasses" />
-        <item itemvalue="Application.ScalaTut10_Class" />
-        <item itemvalue="Application.ScalaTut4" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +367,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533789565118</updated>
-      <workItem from="1533789566724" duration="7888000" />
+      <workItem from="1533789566724" duration="10109000" />
     </task>
     <task id="LOCAL-00001" summary="Converting to Intellij Idea Project">
       <created>1533790133115</created>
@@ -397,18 +387,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7888000" />
+    <option name="totallyTimeSpent" value="10109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32941177" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
@@ -419,7 +408,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,16 +463,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scala-Tutorial.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut8_Map.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -576,10 +555,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut14_Functions2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut15_Closures.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut16_FilesIO.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#40#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut17_Exceptions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>

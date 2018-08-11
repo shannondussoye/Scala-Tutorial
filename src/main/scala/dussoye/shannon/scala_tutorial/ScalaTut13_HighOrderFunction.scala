@@ -15,6 +15,4 @@ object ScalaTut13_HighOrderFunction {
 
   List(1,2,3,4,5).filter(_%2==0).foreach(println)
 
-  
-
 }
