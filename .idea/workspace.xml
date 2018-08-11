@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90b13e44-132a-4f85-8420-e587bcf19095" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut10_ClassesAndInheritance.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut11_AbstractClasses.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut12_Traits.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1665585006">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="md" value="1" />
+          <entry key="sc" value="1" />
+          <entry key="scala" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="Scala" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="210" />
+          <entry key="sc" value="31" />
+          <entry key="scala" value="3589" />
+          <entry key="txt" value="136" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="210" />
+          <entry key="PLAIN_TEXT" value="136" />
+          <entry key="Scala" value="3620" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/test.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut8.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/SalaTut9.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut9.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut10_Tuples.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut8_Arrays.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut7_Functions.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut6_String.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut6_StringManipulation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut5.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut5_StringManupulation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut4_Input.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut3_ForLoop.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut2_List.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut1_Loops.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut10_Class.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut10_ClassesAndInheritance.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut11_AbstractClasses.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut12_Traits.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Scala-Tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala-Tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala-Tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala-Tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala-Tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala-Tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala-Tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala-Tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala-Tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala-Tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala_tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533797526241" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ScalaTut13_HighOrderFunction">
+    <configuration name="ScalaTut10_Class" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut10_ClassesAndInheritance" />
+      <module name="Scala-Tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTut11_AbstractClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut11_AbstractClasses" />
+      <module name="Scala-Tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTut12_Traits" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut12_Traits" />
+      <module name="Scala-Tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTut13_HighOrderFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut13_HighOrderFunction" />
+      <module name="Scala-Tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTut4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dussoye.shannon.scala_tutorial.ScalaTut4_Input" />
+      <module name="Scala-Tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dussoye.shannon.scala_tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Scala-Tutorial" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Scala-Tutorial" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ScalaTut4" />
+      <item itemvalue="Application.ScalaTut10_Class" />
+      <item itemvalue="Application.ScalaTut11_AbstractClasses" />
+      <item itemvalue="Application.ScalaTut12_Traits" />
+      <item itemvalue="Application.ScalaTut13_HighOrderFunction" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ScalaTut13_HighOrderFunction" />
+        <item itemvalue="Application.ScalaTut12_Traits" />
+        <item itemvalue="Application.ScalaTut11_AbstractClasses" />
+        <item itemvalue="Application.ScalaTut10_Class" />
+        <item itemvalue="Application.ScalaTut4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Scala-Tutorial" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="scala-tutorial [file:/Users/dussoysh/Workspaces/Shannon-Workspace/Scala-Tutorial/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scala-tutorial-build [file:/Users/dussoysh/Workspaces/Shannon-Workspace/Scala-Tutorial/]" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3067578552000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1818102496" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3771982881" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90b13e44-132a-4f85-8420-e587bcf19095" name="Default Changelist" comment="" />
+      <created>1533789565118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533789565118</updated>
+      <workItem from="1533789566724" duration="7888000" />
+    </task>
+    <task id="LOCAL-00001" summary="Converting to Intellij Idea Project">
+      <created>1533790133115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533790133115</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Renaming/Consolidating Files and Objects to include tutorial topic">
+      <created>1533792735270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533792735270</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7888000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.32941177" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50061053" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.4993895" weight="0.32941177" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Converting to Intellij Idea Project" />
+    <MESSAGE value="Renaming/Consolidating Files and Objects to include tutorial topic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renaming/Consolidating Files and Objects to include tutorial topic" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/test.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScalaTut2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScalaTut1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/SalaTut9.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scala-Tutorial.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut8_Map.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut7_Arrays.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-605">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut6_StringManipulation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut5_StringManupulation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut1_Loops.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut2_List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut4_Input.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut3_ForLoop.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut6_Functions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut9_Tuples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut11_AbstractClasses.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut10_ClassesAndInheritance.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut12_Traits.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dussoye/shannon/scala_tutorial/ScalaTut13_HighOrderFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
