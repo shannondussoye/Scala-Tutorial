@@ -1,4 +1,4 @@
-https://travis-ci.org/shannondussoye/Scala-Tutorial.svg?branch=master
+[![Build Status](https://travis-ci.org/shannondussoye/Scala-Tutorial.svg?branch=master)](https://travis-ci.org/shannondussoye/Scala-Tutorial)
 
 # Scala-Tutorial
 
