@@ -1,3 +1,5 @@
+https://travis-ci.org/shannondussoye/Scala-Tutorial.svg?branch=master
+
 # Scala-Tutorial
 
 Repo for Scala code used for Derek Video Tutorial: https://www.youtube.com/watch?v=DzFt0YkZo8M
